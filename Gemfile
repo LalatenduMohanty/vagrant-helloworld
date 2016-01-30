@@ -8,6 +8,6 @@ group :development do
 end
 
 group :plugins do
-  gem "helloworld", path: "."
+  gem "vagrant-helloworld", path: "."
 end
 
