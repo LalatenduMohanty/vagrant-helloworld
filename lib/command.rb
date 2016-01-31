@@ -1,7 +1,6 @@
 class Command < Vagrant.plugin(2, :command)
   def execute
-    puts "Hello!"
-    0
+    @env.ui.info("Hello World")
   end
 end
 
